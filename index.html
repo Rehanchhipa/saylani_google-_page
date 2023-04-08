@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d96bede1df.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        .ul {
+            display: flex;
+            justify-content: end;
+            list-style: none;
+        }
+
+        .li {
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .fa-user-tie {
+            background-color: black;
+            color: white;
+            padding: 2px;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+
+        .div_1 {
+            margin-top: 60px;
+        }
+
+        .img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .input {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            width: 45%;
+            border: 1px solid #ebe1e1;
+            border-radius: 20px;
+            padding: 14px;
+            box-shadow: 4px 3px 10px 0px #E3E3EF;
+            outline: none;
+            position: relative;
+            padding-left: 50px;
+        }
+        .input::placeholder {
+            color: #cbcbeb;
+;
+        }
+
+        .search {
+            position: absolute;
+            margin-left: 29%;
+            margin-top: 14px;
+            z-index: 5;
+            color: #cbcbeb;
+            cursor: pointer;
+        }
+
+        .img_1 {
+            position: absolute;
+            margin-left: 66%;
+            margin-top: -34px;
+            cursor: pointer;
+        }
+        .div_2 {
+        }
+        .ol_1 {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-left: -35px;
+        }
+        .li_1 {
+            padding: 10px 25px 5px 25px;
+            text-align: center;
+        }
+        .li_div {
+            position: relative;
+        }
+        .li_1:hover {
+            background-color: whitesmoke;
+            /* padding: 20px; */
+        }
+        .li_1:hover .menu {
+            display: block;
+        }
+        .p {
+        }
+        .menu {
+            position: absolute;
+            right: -15px;
+            top: 0%;
+            display: none;
+            cursor: pointer;
+        }
+        @media only screen and (max-width: 720px) {
+            .img_1 {
+                margin-left: 64%;
+            }
+            
+        }
+        
+        @media only screen and (max-width: 540px) {
+            .search {
+                margin-left: 15%;
+            }
+            .img_1 {
+                margin-left: 75%;
+            }
+            .input {
+                width: 80%;
+            }
+        }
+        @media only screen and (max-width: 480px){
+            .search {
+                margin-left: 14%;
+            }
+            .img_1 {
+                margin-left: 75%;
+            }
+        }
+        @media only screen and (max-width: 420px) {
+            .search {
+                margin-left: 14%;
+            }
+            .img_1 {
+                margin-left: 76%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <div>
+            <ul class="ul">
+                <li class="li">Gmail</li>
+                <li class="li">Images</li>
+                <li class="li"><i class="fa-solid fa-bars"></i></li>
+                <li class="li"><i class="fa-solid fa-user-tie"></i></li>
+            </ul>
+        </div>
+        <div class="div_1">
+            <img class="img" src="./google-logo.png" width="300px" alt="" srcset="">
+            <div>
+                <i class="fa-solid fa-magnifying-glass search"></i>
+                <input class="input" type="search" placeholder="Search Google or Type URL">
+                <img class="img_1" src="./mic.jpg" width="30px" alt="" srcset="">
+            </div>
+        </div>
+        <div class="div_2">
+            <ol class="ol_1">
+                <li class="li_1">
+                    <div class="li_div">
+                        <img src="./GitHub_logo.png" width="30px" alt="" srcset="">
+                        <i class="fa-solid fa-ellipsis-vertical menu"></i>
+                        <p class="p">github</p>
+                    </div>
+                </li>
+                <li class="li_1">
+                    <div class="li_div">
+                        <img src="./GitHub_logo.png" width="30px" alt="" srcset="">
+                        <i class="fa-solid fa-ellipsis-vertical menu"></i>
+                        <p class="p">github</p>
+                    </div>
+                </li>
+                <li class="li_1">
+                    <div class="li_div">
+                        <img src="./GitHub_logo.png" width="30px" alt="" srcset="">
+                        <i class="fa-solid fa-ellipsis-vertical menu"></i>
+                        <p class="p">github</p>
+                    </div>
+                </li>
+                <li class="li_1">
+                    <div class="li_div">
+                        <img src="./GitHub_logo.png" width="30px" alt="" srcset="">
+                        <i class="fa-solid fa-ellipsis-vertical menu"></i>
+                        <p class="p">github</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div class="div_2">
+            <ol class="ol_1">
+                <li class="li_1">
+                    <div class="li_div">
+                        <img src="./GitHub_logo.png" width="30px" alt="" srcset="">
+                        <i class="fa-solid fa-ellipsis-vertical menu"></i>
+                        <p class="p">github</p>
+                    </div>
+                </li>
+                <li class="li_1">
+                    <div class="li_div">
+                        <img src="./GitHub_logo.png" width="30px" alt="" srcset="">
+                        <i class="fa-solid fa-ellipsis-vertical menu"></i>
+                        <p class="p">github</p>
+                    </div>
+                </li>
+                <li class="li_1">
+                    <div class="li_div">
+                        <img src="./GitHub_logo.png" width="30px" alt="" srcset="">
+                        <i class="fa-solid fa-ellipsis-vertical menu"></i>
+                        <p class="p">github</p>
+                    </div>
+                </li>
+                <li class="li_1">
+                    <div class="li_div">
+                        <img src="./GitHub_logo.png" width="30px" alt="" srcset="">
+                        <i class="fa-solid fa-ellipsis-vertical menu"></i>
+                        <p class="p">github</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+</body>
+
+</html>
